@@ -6,7 +6,6 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Navbar from './component/Navbar/Navbar';
 import Main from './component/Main/Main';
 
 const router = createBrowserRouter([
