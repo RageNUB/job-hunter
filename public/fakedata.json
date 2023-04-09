@@ -1,0 +1,137 @@
+[
+    {
+        "id": "1",
+        "job_title": "Social Media Manager",
+        "image": "./assets/Logo/google-1-1 1-1.png",
+        "remote": true,
+        "full_time": true,
+        "salary_range": "$50,000 - $70,000",
+        "location": "Los Angeles, CA",
+        "job_description": "We are looking for a creative and experienced Social Media Manager to join our team. You will be responsible for developing and executing social media strategies that engage our target audience and increase brand awareness.",
+        "job_responsibilities": [
+           "Develop and implement social media strategies",
+           "Create engaging social media content",
+           "Analyze and report on social media metrics",
+           "Collaborate with marketing and PR teams"
+        ],
+        "educational_requirements": "Bachelor's degree in Marketing, Communications, or a related field",
+        "experience_required": "2+ years of professional social media management experience, including experience with content creation, social media analytics, and social media advertising.",
+        "contact_info": {
+           "email": "hr@company.com",
+           "phone": "(555) 123-4567"
+        }
+     },
+     {
+        "id": "2",
+        "job_title": "Data Scientist",
+        "image": "./assets/Logo/google-1-1 1.png",
+        "remote": false,
+        "full_time": true,
+        "salary_range": "$100,000 - $140,000",
+        "location": "San Francisco, CA",
+        "job_description": "We are seeking a highly skilled and experienced Data Scientist to join our team. You will be responsible for developing and implementing data models and algorithms to solve complex business problems.",
+        "job_responsibilities": [
+           "Develop and implement data models and algorithms",
+           "Analyze and interpret complex data sets",
+           "Present findings and recommendations to stakeholders",
+           "Collaborate with cross-functional teams"
+        ],
+        "educational_requirements": "Master's or PhD in Computer Science, Statistics, or a related field",
+        "experience_required": "3+ years of professional experience in data analysis and modeling, including experience with machine learning algorithms and statistical modeling.",
+        "contact_info": {
+           "email": "hr@company.com",
+           "phone": "(555) 123-4567"
+        }
+     },
+     {
+        "id": "3",
+        "job_title": "UX Designer",
+        "image": "./assets/Logo/netflix-4 1.png",
+        "remote": true,
+        "full_time": true,
+        "salary_range": "$70,000 - $90,000",
+        "location": "Austin, TX",
+        "job_description": "We are seeking a talented and experienced UX Designer to join our team. You will be responsible for designing and prototyping user interfaces that meet the needs of our customers and improve their user experience.",
+        "job_responsibilities": [
+           "Design and prototype user interfaces",
+           "Conduct user research and usability testing",
+           "Collaborate with product and development teams",
+           "Maintain design systems and style guides"
+        ],
+        "educational_requirements": "Bachelor's or Master's degree in Design or a related field",
+        "experience_required": "3+ years of professional experience in UX design, including experience with user research and usability testing.",
+        "contact_info": {
+           "email": "hr@company.com",
+           "phone": "(555) 123-4567"
+        }
+     },
+     {
+        "id": "4",
+        "company_name": "Global Solutions",
+        "image": "./assets/Logo/tesla-9 1.png",
+        "job_title": "Software Engineer",
+        "remote": true,
+        "full_time": true,
+        "salary_range": "$80,000 - $120,000",
+        "location": "Seattle, WA",
+        "job_description": "We are looking for a skilled and experienced Software Engineer to join our team. You will be responsible for developing and maintaining software applications that meet the needs of our customers.",
+        "job_responsibilities": [
+           "Design and develop software applications",
+           "Collaborate with cross-functional teams",
+           "Write and maintain code documentation",
+           "Perform code reviews and testing"
+        ],
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science or a related field",
+        "experience_required": "5+ years of professional experience in software engineering, including experience with one or more programming languages such as Java, Python, or C++.",
+        "contact_info": {
+           "email": "hr@globalsolutions.com",
+           "phone": "(555) 123-4567"
+        }
+     },
+     {
+        "id": "5",
+        "company_name": "Sunset Productions",
+        "image": "./assets/All Images/Group 10021.png",
+        "job_title": "Video Editor",
+        "remote": false,
+        "full_time": true,
+        "salary_range": "$40,000 - $60,000",
+        "location": "New York, NY",
+        "job_description": "We are seeking a creative and skilled Video Editor to join our team. You will be responsible for editing and producing high-quality video content that meets the needs of our clients.",
+        "job_responsibilities": [
+           "Edit and produce high-quality video content",
+           "Collaborate with clients and producers",
+           "Stay up-to-date with industry trends and software",
+           "Manage video project timelines and budgets"
+        ],
+        "educational_requirements": "Bachelor's degree in Film, Video Production, or a related field",
+        "experience_required": "2+ years of professional experience in video editing and production, including experience with Adobe Premiere Pro, Final Cut Pro, or other video editing software.",
+        "contact_info": {
+           "email": "hr@sunsetproductions.com",
+           "phone": "(555) 123-4567"
+        }
+     },
+     {
+        "id": "6",
+        "company_name": "ABC Accounting",
+        "image": "./assets/Logo/tesla-9 1.png",
+        "job_title": "Accountant",
+        "remote": false,
+        "full_time": true,
+        "salary_range": "$50,000 - $70,000",
+        "location": "Chicago, IL",
+        "job_description": "We are seeking a detail-oriented and experienced Accountant to join our team. You will be responsible for managing financial records, reconciling accounts, and preparing financial reports.",
+        "job_responsibilities": [
+           "Manage financial records",
+           "Reconcile accounts and prepare financial reports",
+           "Collaborate with cross-functional teams",
+           "Ensure compliance with accounting regulations"
+        ],
+        "educational_requirements": "Bachelor's degree in Accounting or a related field",
+        "experience_required": "3+ years of professional experience in accounting, including experience with financial reporting, accounts payable and receivable, and tax preparation.",
+        "contact_info": {
+           "email": "hr@abcaccounting.com",
+           "phone": "(555) 123-4567"
+        }
+     }                              
+]
