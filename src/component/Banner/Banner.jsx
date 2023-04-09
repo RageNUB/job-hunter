@@ -5,7 +5,7 @@ const Banner = () => {
         <div className='flex justify-between items-start bg-accent px-20'>
             <div className='my-auto text-start'>
                 <h1 className='text-7xl font-bold'>One Step <br />Closer To Your <br /> <span className='text-primary'>Dream Job</span></h1>
-                <p className='my-6 line-clamp-3'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
+                <p className='my-6 text-secondary'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
                 <button className='btn btn-primary text-white'>Get Started</button>
             </div>
             <div>
