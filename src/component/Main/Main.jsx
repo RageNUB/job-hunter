@@ -1,17 +1,28 @@
-import React from 'react';
-import { useLoaderData } from 'react-router-dom';
-import Banner from '../Banner/Banner';
-import JobCategory from '../JobCategory/JobCategory';
+import React, { createContext, useEffect, useState } from "react";
+import { useLoaderData } from "react-router-dom";
+import Banner from "../Banner/Banner";
+import JobCategory from "../JobCategory/JobCategory";
+import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
+
+export const DataContext = createContext([]);
 
 const Main = () => {
-    const data = useLoaderData();
-    // console.log(data)
-    return (
-        <div>
-            <Banner></Banner>
-            <JobCategory></JobCategory>
-        </div>
-    );
+//   const [data, setData] = useState([]);
+  const loaderData = useLoaderData();
+
+//   useEffect(() => {
+//     setData(loaderData);
+//   }, [loaderData]);
+
+  return (
+    <div>
+      <DataContext.Provider value={loaderData}>
+        <Banner></Banner>
+        <JobCategory></JobCategory>
+        <FeaturedJobs></FeaturedJobs>
+      </DataContext.Provider>
+    </div>
+  );
 };
 
 export default Main;

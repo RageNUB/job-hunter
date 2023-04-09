@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div className='flex justify-between items-start bg-accent px-20'>
+        <div className='lg:flex justify-between items-start bg-accent px-20'>
             <div className='my-auto text-start'>
                 <h1 className='text-7xl font-bold'>One Step <br />Closer To Your <br /> <span className='text-primary'>Dream Job</span></h1>
                 <p className='my-6 text-secondary'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>

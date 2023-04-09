@@ -1,6 +1,7 @@
 [
     {
         "id": "1",
+        "company_name": "Google LLC",
         "job_title": "Social Media Manager",
         "image": "./assets/Logo/google-1-1 1-1.png",
         "remote": true,
@@ -23,6 +24,7 @@
      },
      {
         "id": "2",
+        "company_name": "Google LLC",
         "job_title": "Data Scientist",
         "image": "./assets/Logo/google-1-1 1.png",
         "remote": false,
@@ -46,6 +48,7 @@
      {
         "id": "3",
         "job_title": "UX Designer",
+        "company_name": "Netflix",
         "image": "./assets/Logo/netflix-4 1.png",
         "remote": true,
         "full_time": true,
@@ -67,7 +70,7 @@
      },
      {
         "id": "4",
-        "company_name": "Global Solutions",
+        "company_name": "Tesla",
         "image": "./assets/Logo/tesla-9 1.png",
         "job_title": "Software Engineer",
         "remote": true,
@@ -90,8 +93,8 @@
      },
      {
         "id": "5",
-        "company_name": "Sunset Productions",
-        "image": "./assets/All Images/Group 10021.png",
+        "company_name": "Air BNB",
+        "image": "./assets/images/Group 10021.png",
         "job_title": "Video Editor",
         "remote": false,
         "full_time": true,
@@ -113,7 +116,7 @@
      },
      {
         "id": "6",
-        "company_name": "ABC Accounting",
+        "company_name": "Tesla",
         "image": "./assets/Logo/tesla-9 1.png",
         "job_title": "Accountant",
         "remote": false,

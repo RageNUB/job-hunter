@@ -15,7 +15,7 @@ const JobCategory = () => {
             <h1 className='text-5xl font-bold mb-5'>Job Category List</h1>
             <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
-            <div className='flex justify-between px-20 mt-8'>
+            <div className='lg:flex justify-between px-20 mt-8'>
                 {
                     jobList.map(job => <JobList
                     key={job.id}
