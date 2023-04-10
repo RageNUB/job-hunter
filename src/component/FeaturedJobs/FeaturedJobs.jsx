@@ -1,10 +1,21 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { DataContext } from "../Main/Main";
 import Jobs from "../Jobs/Jobs";
 
 const FeaturedJobs = () => {
-    const data = useContext(DataContext);
-    // console.log(data)
+    const contextData = useContext(DataContext);
+    const [data, setData] = useState([])
+
+    useEffect( () => {
+      const slicedData = contextData.slice(0, 4);
+      setData(slicedData)
+    },[])
+
+    const handleSeeAll = () => {
+      setData(contextData)
+    }
+    
+
   return (
     <div className="px-20 mt-16">
       <div className="text-center">
@@ -19,7 +30,13 @@ const FeaturedJobs = () => {
             data.map(data => <Jobs
              key={data.id}
              data={data}
+             handleSeeAll={handleSeeAll}
             ></Jobs>)
+        }
+      </div>
+      <div className="flex justify-center mt-5">
+        {
+          data.length <= 4 && <button onClick={handleSeeAll} className="btn btn-primary text-white">See All Jobs</button>
         }
       </div>
     </div>

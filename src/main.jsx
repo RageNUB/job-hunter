@@ -9,6 +9,7 @@ import {
 import Main from './component/Main/Main';
 import JobDetails from './component/JobDetails/JobDetails';
 import AppliedJobs from './component/AppliedJobs/AppliedJobs';
+import Statistics from './component/statistics/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
         path: "appliedjobs",
         element: <AppliedJobs></AppliedJobs>,
         loader: () => fetch("/fakedata.json")
+      },
+      {
+        path: "statistics",
+        element: <Statistics></Statistics>
       }
     ]
   }
