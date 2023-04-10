@@ -1,11 +1,13 @@
 import React from "react";
 import Button from "../Button/Button";
+import { addToDb } from "../../utilities/fakeDB";
 
 const JobDetail = ({loaderData}) => {
     const {contact_info,
         location,
         salary_range,
-        job_title} = loaderData[0];
+        job_title,
+    id} = loaderData[0];
 
   return (
     <div className="mt-16 mr-20">
@@ -58,7 +60,7 @@ const JobDetail = ({loaderData}) => {
           <p className="text-lg font-semibold">Address: <span className="text-gray-500 font-normal">{location}</span> </p>
         </div>
       </div>
-      <button className="btn btn-primary text-white w-full mt-6">Apply Now</button>
+      <button onClick={() => addToDb(id)} className="btn btn-primary text-white w-full mt-6">Apply Now</button>
     </div>
   );
 };

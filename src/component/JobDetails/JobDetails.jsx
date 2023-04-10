@@ -4,7 +4,7 @@ import JobDetail from "../JobDetail/JobDetail";
 
 const JobDetails = () => {
   const loaderData = useLoaderData();
-  console.log(loaderData);
+//   console.log(loaderData);
 
   const {
     job_description,

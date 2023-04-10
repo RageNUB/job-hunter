@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Button from "../Button/Button";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="bg-accent">
@@ -61,13 +62,13 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-secondary">
             <li>
-              <a>Statistics</a>
+              <Link to="statistics">Statistics</Link>
             </li>
             <li>
-                <a>Applied Jobs</a>
+              <Link to="appliedjobs">Applied Jobs</Link>
             </li>
             <li>
-              <a>Blog</a>
+              <Link to="blog">Blog</Link>
             </li>
           </ul>
         </div>
