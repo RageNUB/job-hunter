@@ -1,0 +1,25 @@
+[
+    {
+        "id": "3",
+        "job_title": "UX Designer",
+        "company_name": "Netflix",
+        "image": "./assets/Logo/netflix-4 1.png",
+        "remote": true,
+        "full_time": true,
+        "salary_range": "$70,000 - $90,000",
+        "location": "Austin, TX",
+        "job_description": "We are seeking a talented and experienced UX Designer to join our team. You will be responsible for designing and prototyping user interfaces that meet the needs of our customers and improve their user experience.",
+        "job_responsibilities": [
+           "Design and prototype user interfaces",
+           "Conduct user research and usability testing",
+           "Collaborate with product and development teams",
+           "Maintain design systems and style guides"
+        ],
+        "educational_requirements": "Bachelor's or Master's degree in Design or a related field",
+        "experience_required": "3+ years of professional experience in UX design, including experience with user research and usability testing.",
+        "contact_info": {
+           "email": "hr@company.com",
+           "phone": "(555) 123-4567"
+        }
+     }
+]

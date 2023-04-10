@@ -1,4 +1,6 @@
 import React from "react";
+import Button from "../Button/Button";
+import { Link } from "react-router-dom";
 
 const Jobs = ({ data }) => {
   const {
@@ -16,7 +18,7 @@ const Jobs = ({ data }) => {
           {full_time ? "Full Time" : "Part Time"}
         </button>
       </div>
-      <div className="flex gap-4">
+      <div className="flex gap-4 mb-5">
         <div className="flex gap-2">
           <img src="./assets/Icons/Frame-4.png" alt="" />
           <p className="text-secondary">{location}</p>
@@ -26,7 +28,8 @@ const Jobs = ({ data }) => {
           <p className="text-secondary">{salary_range}</p>
         </div>
       </div>
-      <button className="btn btn-primary text-white mt-5">View Details</button>
+      <button className="btn btn-primary text-white"><Link to={`/jobDetails/${id}`}>View Details</Link></button>
+      {/* <Button><Link to={`/jobDetails/${id}`}>View Details</Link></Button> */}
     </div>
   );
 };

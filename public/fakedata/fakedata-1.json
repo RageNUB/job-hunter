@@ -1,0 +1,25 @@
+[
+    {
+        "id": "1",
+        "company_name": "Google LLC",
+        "job_title": "Social Media Manager",
+        "image": "./assets/Logo/google-1-1 1-1.png",
+        "remote": true,
+        "full_time": true,
+        "salary_range": "$50,000 - $70,000",
+        "location": "Los Angeles, CA",
+        "job_description": "We are looking for a creative and experienced Social Media Manager to join our team. You will be responsible for developing and executing social media strategies that engage our target audience and increase brand awareness.",
+        "job_responsibilities": [
+           "Develop and implement social media strategies",
+           "Create engaging social media content",
+           "Analyze and report on social media metrics",
+           "Collaborate with marketing and PR teams"
+        ],
+        "educational_requirements": "Bachelor's degree in Marketing, Communications, or a related field",
+        "experience_required": "2+ years of professional social media management experience, including experience with content creation, social media analytics, and social media advertising.",
+        "contact_info": {
+           "email": "hr@company.com",
+           "phone": "(555) 123-4567"
+        }
+     }
+]

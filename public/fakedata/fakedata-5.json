@@ -1,0 +1,25 @@
+[
+    {
+        "id": "5",
+        "company_name": "Air BNB",
+        "image": "./assets/images/Group 10021.png",
+        "job_title": "Video Editor",
+        "remote": false,
+        "full_time": true,
+        "salary_range": "$40,000 - $60,000",
+        "location": "New York, NY",
+        "job_description": "We are seeking a creative and skilled Video Editor to join our team. You will be responsible for editing and producing high-quality video content that meets the needs of our clients.",
+        "job_responsibilities": [
+           "Edit and produce high-quality video content",
+           "Collaborate with clients and producers",
+           "Stay up-to-date with industry trends and software",
+           "Manage video project timelines and budgets"
+        ],
+        "educational_requirements": "Bachelor's degree in Film, Video Production, or a related field",
+        "experience_required": "2+ years of professional experience in video editing and production, including experience with Adobe Premiere Pro, Final Cut Pro, or other video editing software.",
+        "contact_info": {
+           "email": "hr@sunsetproductions.com",
+           "phone": "(555) 123-4567"
+        }
+     }
+]

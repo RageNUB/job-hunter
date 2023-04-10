@@ -1,0 +1,25 @@
+[
+    {
+        "id": "2",
+        "company_name": "Google LLC",
+        "job_title": "Data Scientist",
+        "image": "./assets/Logo/google-1-1 1.png",
+        "remote": false,
+        "full_time": true,
+        "salary_range": "$100,000 - $140,000",
+        "location": "San Francisco, CA",
+        "job_description": "We are seeking a highly skilled and experienced Data Scientist to join our team. You will be responsible for developing and implementing data models and algorithms to solve complex business problems.",
+        "job_responsibilities": [
+           "Develop and implement data models and algorithms",
+           "Analyze and interpret complex data sets",
+           "Present findings and recommendations to stakeholders",
+           "Collaborate with cross-functional teams"
+        ],
+        "educational_requirements": "Master's or PhD in Computer Science, Statistics, or a related field",
+        "experience_required": "3+ years of professional experience in data analysis and modeling, including experience with machine learning algorithms and statistical modeling.",
+        "contact_info": {
+           "email": "hr@company.com",
+           "phone": "(555) 123-4567"
+        }
+     }
+]

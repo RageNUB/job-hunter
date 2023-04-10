@@ -1,0 +1,25 @@
+[
+    {
+        "id": "4",
+        "company_name": "Tesla",
+        "image": "./assets/Logo/tesla-9 1.png",
+        "job_title": "Software Engineer",
+        "remote": true,
+        "full_time": true,
+        "salary_range": "$80,000 - $120,000",
+        "location": "Seattle, WA",
+        "job_description": "We are looking for a skilled and experienced Software Engineer to join our team. You will be responsible for developing and maintaining software applications that meet the needs of our customers.",
+        "job_responsibilities": [
+           "Design and develop software applications",
+           "Collaborate with cross-functional teams",
+           "Write and maintain code documentation",
+           "Perform code reviews and testing"
+        ],
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science or a related field",
+        "experience_required": "5+ years of professional experience in software engineering, including experience with one or more programming languages such as Java, Python, or C++.",
+        "contact_info": {
+           "email": "hr@globalsolutions.com",
+           "phone": "(555) 123-4567"
+        }
+     }
+]

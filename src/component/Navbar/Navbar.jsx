@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Button from "../Button/Button";
 const Navbar = () => {
   return (
     <div className="bg-accent">
@@ -72,6 +73,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <a className="btn btn-primary text-white">Star Applying</a>
+          {/* <Button>Start Applying</Button> */}
         </div>
       </div>
     </div>
