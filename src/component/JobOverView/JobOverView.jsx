@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const JobOverView = ({ data }) => {
   const {
@@ -40,7 +41,7 @@ const JobOverView = ({ data }) => {
           </div>
         </div>
         <div>
-            <button className="btn btn-primary text-white">View Details</button>
+            <button className="btn btn-primary text-white"><Link to={`/jobDetails/${id}`}>View Details</Link></button>
         </div>
       </div>
     </div>
