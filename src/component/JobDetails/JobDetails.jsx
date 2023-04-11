@@ -1,7 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import TitleText from "../TitleText/TitleText";
 import JobDetail from "../JobDetail/JobDetail";
-import { useEffect, useState } from "react";
 
 const JobDetails = () => {
   const loaderData = useLoaderData();

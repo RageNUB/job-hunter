@@ -17,9 +17,9 @@ const FeaturedJobs = () => {
     
 
   return (
-    <div className="px-20 mt-16">
+    <div className="px-5 lg:px-20 mt-16">
       <div className="text-center">
-        <h1 className="text-5xl font-bold mb-5">Featured Jobs</h1>
+        <h1 className="text-4xl lg:text-5xl font-bold mb-5">Featured Jobs</h1>
         <p>
           Explore thousands of job opportunities with all the information you
           need. Its your future
@@ -34,7 +34,7 @@ const FeaturedJobs = () => {
             ></Jobs>)
         }
       </div>
-      <div className="flex justify-center mt-5">
+      <div className="flex justify-center mt-5 mb-5">
         {
           data.length <= 4 && <button onClick={handleSeeAll} className="btn btn-primary text-white">See All Jobs</button>
         }

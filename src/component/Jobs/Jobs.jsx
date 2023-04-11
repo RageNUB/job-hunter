@@ -18,8 +18,8 @@ const Jobs = ({ data }) => {
           {full_time ? "Full Time" : "Part Time"}
         </button>
       </div>
-      <div className="flex gap-4 mb-5">
-        <div className="flex gap-2">
+      <div className="lg:flex gap-4 mb-5">
+        <div className="flex gap-2 mb-3">
           <img src="/assets/Icons/Frame-4.png" alt="" />
           <p className="text-secondary">{location}</p>
         </div>
