@@ -30,11 +30,11 @@ const JobOverView = ({ data }) => {
           </div>
           <div className="flex gap-4 mb-5">
             <div className="flex gap-2">
-              <img src="./assets/Icons/Frame-4.png" alt="" />
+              <img src="/assets/Icons/Frame-4.png" alt="" />
               <p className="text-secondary">{location}</p>
             </div>
             <div className="flex gap-2">
-              <img src="./assets/Icons/Frame.png" alt="" />
+              <img src="/assets/Icons/Frame.png" alt="" />
               <p className="text-secondary">{salary_range}</p>
             </div>
           </div>

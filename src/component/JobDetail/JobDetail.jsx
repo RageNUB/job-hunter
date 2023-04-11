@@ -18,7 +18,7 @@ const JobDetail = ({loaderData}) => {
         <div className="flex items-center gap-2 justify-start pt-3">
           <img
             className="h-5 w-5"
-            src="../../../public/assets/Icons/Frame.png"
+            src="/assets/Icons/Frame.png"
             alt=""
           />
           <p className="text-lg font-semibold">Salary Range: <span className="text-gray-500 font-normal">{salary_range}</span></p>
@@ -26,7 +26,7 @@ const JobDetail = ({loaderData}) => {
         <div className="flex items-center gap-2 justify-start pt-2">
           <img
             className="h-5 w-5"
-            src="../../../public/assets/Icons/Frame-1.png"
+            src="/assets/Icons/Frame-1.png"
             alt=""
           />
           <p className="text-lg font-semibold">Job Title: <span className="text-gray-500 font-normal">{job_title}</span></p>
@@ -38,7 +38,7 @@ const JobDetail = ({loaderData}) => {
         <div className="flex items-center gap-2 justify-start pt-3">
           <img
             className="h-5 w-5"
-            src="../../../public/assets/Icons/Frame-2.png"
+            src="/assets/Icons/Frame-2.png"
             alt=""
           />
           <p className="text-lg font-semibold">Phone: <span className="text-gray-500 font-normal">{contact_info.phone}</span> </p>
@@ -46,7 +46,7 @@ const JobDetail = ({loaderData}) => {
         <div className="flex items-center gap-2 justify-start pt-2">
           <img
             className="h-5 w-5"
-            src="../../../public/assets/Icons/Frame-3.png"
+            src="/assets/Icons/Frame-3.png"
             alt=""
           />
           <p className="text-lg font-semibold">Email: <span className="text-gray-500 font-normal">{contact_info.email}</span></p>
@@ -54,7 +54,7 @@ const JobDetail = ({loaderData}) => {
         <div className="flex items-center gap-2 justify-start pt-2">
           <img
             className="h-5 w-5"
-            src="../../../public/assets/Icons/Frame-4.png"
+            src="/assets/Icons/Frame-4.png"
             alt=""
           />
           <p className="text-lg font-semibold">Address: <span className="text-gray-500 font-normal">{location}</span> </p>
