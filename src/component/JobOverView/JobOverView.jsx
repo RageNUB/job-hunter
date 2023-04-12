@@ -14,7 +14,7 @@ const JobOverView = ({ data }) => {
   } = data;
   return (
     <div className="border p-5 mt-5 rounded-lg flex items-center">
-      <div className="bg-accent w-60 h-60 flex items-center justify-center rounded-lg">
+      <div className="bg-accent w-48 h-48 flex items-center justify-center rounded-lg">
         <img className="p-5" src={image} alt="" />
       </div>
       <div className="flex justify-between items-center w-full pl-6">
