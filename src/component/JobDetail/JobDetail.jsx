@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../Button/Button";
 import { addToDb } from "../../utilities/fakeDB";
 
 const JobDetail = ({loaderData}) => {

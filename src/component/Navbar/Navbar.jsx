@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import Button from "../Button/Button";
+import React from "react";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
@@ -63,7 +62,6 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <a className="btn btn-primary text-white">Star Applying</a>
-          {/* <Button>Start Applying</Button> */}
         </div>
       </div>
     </div>

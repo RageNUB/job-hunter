@@ -1,12 +1,10 @@
-
-import React, { PureComponent } from "react";
+import React from "react";
 import {
   Radar,
   RadarChart,
   PolarGrid,
   PolarAngleAxis,
   PolarRadiusAxis,
-  ResponsiveContainer,
   Tooltip,
   Legend,
 } from "recharts";

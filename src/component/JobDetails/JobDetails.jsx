@@ -1,4 +1,4 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 import TitleText from "../TitleText/TitleText";
 import JobDetail from "../JobDetail/JobDetail";
 

@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../Button/Button";
 import { Link } from "react-router-dom";
 
 const Jobs = ({ data }) => {
@@ -29,7 +28,6 @@ const Jobs = ({ data }) => {
         </div>
       </div>
       <button className="btn btn-primary text-white"><Link to={`/jobDetails/${id}`}>View Details</Link></button>
-      {/* <Button><Link to={`/jobDetails/${id}`}>View Details</Link></Button> */}
     </div>
   );
 };
